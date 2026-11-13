@@ -1,0 +1,69 @@
+/*
+ * Meridian theme — HeroUI v3 variable overrides.
+ * Values come from the Meridian Figma file (HeroUI Figma Kit V3 based).
+ */
+@layer base {
+  :root,
+  .light,
+  [data-theme="light"] {
+    /* Base */
+    --background: #f5f5f5;
+    --foreground: #18181b;
+    --muted: #71717a;
+
+    --surface: #ffffff;
+    --surface-foreground: var(--foreground);
+
+    --default: #ebebec;
+    --default-foreground: #18181b;
+
+    --field-background: #ebebec;
+    --field-foreground: #18181b;
+    --field-placeholder: #71717a;
+
+    --border: #dedee0;
+    --separator: #dedee0;
+
+    /* Brand accent */
+    --accent: #7297c5;
+    --accent-foreground: #fcfcfc;
+    --selection: #edf2f8;
+    --accent-strong: #1d63ae;
+    --accent-deep: #3f628f;
+
+    /* Status */
+    --success: #17c964;
+    --success-strong: #2b7744;
+    --warning-strong: #855f2c;
+    --danger: #ff383c;
+
+    /* Radius: 8px buttons/cards, 12px fields */
+    --radius: 0.5rem;
+    --field-radius: 0.75rem;
+
+    /* Shadows */
+    --surface-shadow:
+      0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
+      0 0 1px 0 rgba(0, 0, 0, 0.06);
+
+    /* Navigation (always dark) */
+    --sidebar: #0b0b0b;
+    --sidebar-surface: #141414;
+    --sidebar-active: #1a1a1a;
+    --sidebar-border: #262626;
+    --sidebar-foreground: #f5f5f5;
+    --sidebar-muted: #a1a1aa;
+
+    /* Data visualisation */
+    --chart-1: #7297c5;
+    --chart-2: #afc3de;
+    --chart-3: #d9e3ef;
+    --chart-ink: #303b4d;
+    --chart-grid: #e9ebef;
+
+    /* Task board lanes */
+    --lane-todo: #a1a1aa;
+    --lane-progress: #7297c5;
+    --lane-done: #729184;
+  }
+}

@@ -1,0 +1,10 @@
+*.local
+*.tsbuildinfo
+.DS_Store
+dist
+node_modules
+
+# Local tooling and Figma design exports (not part of the app)
+.claude/
+screen-1/
+screen-2/
